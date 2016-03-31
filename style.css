@@ -1,0 +1,124 @@
+/* header style*/
+body {
+  background-color: white;
+
+}
+.header {
+  background-color: #96BDC6;
+
+
+}
+h1 {
+  font-size: 500%;
+  float: left;
+  clear: both;
+  margin-left: 5%;
+  margin-top: 1%;
+  color:#192433;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3px;
+
+}
+h2 {
+
+  font-style: italic;
+  float: left;
+  clear: both;
+  margin-left: 5%;
+  color:#192433;
+  font-family: 'Lora', serif;
+}
+nav {
+background-color: #192433;
+height: 50px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+a:hover {
+  color: white;
+}
+nav ul {
+  list-style-type: none;
+  margin-left: 5%
+}
+nav li {
+  display: inline;
+  padding-top: 15px;
+  padding-bottom: 18px;
+  background-color: #E2856E;
+}
+nav li:hover {
+  background-color: #D5C7BC;
+}
+nav li:first-of-type {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+nav li:nth-of-type(2) {
+  padding-right: 4%;
+  padding-left: 4%;
+}
+
+
+
+
+
+/*FAQ index style*/
+.answer {
+  display: none;
+}
+.button {
+  margin-bottom: 5%;
+  background-color: #E2856E;
+}
+.answer {
+  margin-bottom: 3%;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+.faq {
+  margin-left: 5%;
+  margin-top: 3%;
+
+}
+.questions {
+  font-family: 'Lora', serif;
+}
+.Title {
+  margin: 0 auto;
+  width: 100%;
+  font-size: 50%;
+}
+
+
+/*flexslider index style*/
+
+.flexslider {
+  padding-top: 0;
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+}
+.HopperContent {
+  width: 40%;
+  float: right;
+  margin-right: 5%;
+  margin-top: 3%;
+  font-family: 'Lora', serif;
+}
+
+@media screen and (max-width: 830px) {
+  .flexslider {
+    width: 70%;
+    float: none;
+  }
+  .HopperContent {
+    width: 70%;
+    float: none;
+    margin-left: 5%;
+  }
+
+}
